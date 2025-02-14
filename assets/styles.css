@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+body{
+    background-color: rgb(190, 180, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainDiv{
+    background-color: rgb(211, 203, 241);
+    border-radius: 2vh;
+    height:70%;
+    width: 30%;
+    border: 2px solid black;
+}
+
+.searchDiv{
+    height: 10%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+}
+
+.searchBar{
+    text-align: center;
+    width: 50%;
+    margin-left: 19%;
+    margin-right: 2%;
+    height: 50%;
+    border-radius: 3vh;
+    border: 1px solid black;
+}
+
+.searchBtn{
+    height: 57%;
+    border-radius: 2vh;
+    border: 1px solid black;
+}
+
+.contentDiv{
+    height: 70%;
+}
+
+.imgDiv {
+    height: 40%;
+    background-image: url('./weather1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center; /* ✅ Centers the background image */
+}
+
+
+.tempDiv{
+    height: 35%;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cityDiv{
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.infoDiv{
+    height: 16%;
+    display: flex;
+    font-weight: 90%;
+}
+
+.fADiv{
+    font-size: 1.6rem;
+    margin-right: 0.8vw;
+}
+
+.humidityPercentage{
+    font-size: 1.4rem;
+}
+
+.humidityTitle{
+    font-size: 0.9rem;
+}
+
+.windSpeed{
+    font-size: 1.4rem;
+}
+
+.windSpeedTitle{
+    font-size: 0.9rem;
+}
+
+.humidityDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.windDiv{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
